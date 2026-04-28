@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="pt-br">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <link rel="icon" href="src/img/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="src/img/favicon 192x192.png" type="image/png" />
+  <link rel="apple-touch-icon" href="src/img/favicon 192x192.png" />
+  <link rel="icon" sizes="192x192" href="src/img/favicon 192x192.png" />
+  <link rel="icon" sizes="32x32" href="src/img/favicon 32x32.png" />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ari Fagundes - Suporte</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <link rel="shortcut icon" href="src/img/logodev2.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="src/css/style.css" />
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.10/dist/dotlottie-wc.js" type="module" async></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="https://www.arifagundes.com/src/img/logodev.ico" type="image/png" />
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.arifagundes.com",
+        "logo": "https://www.arifagundes.com/src/img/"
+      }
+    </script>
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="src/img/profile.png" alt="Ari Fagundes" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ari Fagundes">Ari Fagundes</h1>
+
+          <p class="title">
+            <span class="title-blue">Analista de Suporte</span>
+          </p>
+        </div>
+
+
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <a href="mailto:aricontato1@gmail.com" class="contact-link" style="color:white; text-transform:lowercase; font-size:14px;">aricontato1@gmail.com</a>
+                <button class="copy-btn" onclick="navigator.clipboard.writeText('aricontato1@gmail.com'); this.innerHTML='<ion-icon name=\'checkmark-outline\'></ion-icon>'; setTimeout(() => this.innerHTML='<ion-icon name=\'copy-outline\'></ion-icon>', 2000);" style="color:var(--orange-yellow-crayola); background:none; border:none; cursor:pointer; font-size:16px;" title="Copiar Email">
+                  <ion-icon name="copy-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefone</p>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <a href="https://api.whatsapp.com/send/?phone=5547996444679&text=Olá+Ari,+vim+pelo+seu+site.&type=phone_number&app_absent=0&_fb_noscript=1"
+                  class="contact-link" target="_blank" style="color:white; text-transform:lowercase; font-size:14px;">(47) 9 9644-4679</a>
+                <button class="copy-btn" onclick="navigator.clipboard.writeText('47996444679'); this.innerHTML='<ion-icon name=\'checkmark-outline\'></ion-icon>'; setTimeout(() => this.innerHTML='<ion-icon name=\'copy-outline\'></ion-icon>', 2000);" style="color:var(--orange-yellow-crayola); background:none; border:none; cursor:pointer; font-size:16px;" title="Copiar Telefone">
+                  <ion-icon name="copy-outline"></ion-icon>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localização</p>
+
+              <address>Itajaí, Santa Catarina</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ari-fagundes/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/5547996444679?text=Oi,%20vim%20do%20seu%20portf%C3%B3lio" class="social-link" target="_blank">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Sobre</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumo</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contato</button>
+          </li>
+
+          <li class="navbar-item">
+            <a href="eng.html" class="navbar-link flag-navbar-btn">
+              <img src="https://flagcdn.com/us.svg" alt="EUA" class="flag-icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="sobre">
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p data-writing>
+            Sou um profissional com 8 anos de experiência em Suporte Técnico. Já tendo vivenciado assuntos sobre Redes,
+            Banco de dados, API, Hardware tanto profissional quanto doméstico e Programação. Realizando atendimento B2C
+            e B2B via telefone, email e webchat.
+          </p>
+          <p data-writing>
+            Me formei no final de 2023 em Sistemas para Internet, equilibrando conhecimentos em arquitetura de hardware,
+            redes e infraestrutura com foco técnico em UX/UI e Desenvolvimento. Essa bagagem acadêmica aliada à
+            experiência prática me permite atuar com precisão no diagnóstico de sistemas, integração de APIs e suporte
+            técnico especializado.
+          </p>
+          <div style="margin-top: 25px;">
+            <a href="Ari Fagundes - Suporte.pdf" download class="form-btn"
+              style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; max-width: 280px;">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+              <span>Baixar Currículo (PDF)</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- AI Secret Box -->
+        <section class="ai-secret-section">
+          <div class="ai-box">
+            <div class="ai-header">
+              <div class="ai-avatar">
+                <dotlottie-wc src="https://lottie.host/56d9ea36-777b-4709-a8e1-f76dbf4ee291/c1NQOt9pYG.lottie" style="width:45px;height:45px" autoplay loop></dotlottie-wc>
+              </div>
+              <div class="ai-status">Assistente do Ari</div>
+            </div>
+            <div id="ai-chat-text" class="ai-message"></div>
+            <div class="ai-input-group" id="ai-input-wrapper" style="display: none;">
+              <input type="text" id="ai-question" placeholder="Pergunte algo sobre o Ari...">
+              <button id="ai-ask-btn">Perguntar</button>
+            </div>
+          </div>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">Meus serviços</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"
+                style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; font-size: 36px; color: var(--orange-yellow-crayola);">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Suporte e Infraestrutura</h4>
+
+                <p class="service-item-text">
+                  Gerenciamento, monitoramento e manutenção proativa de redes (Zabbix, Grafana) e equipamentos.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box"
+                style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; font-size: 36px; color: var(--orange-yellow-crayola);">
+                <ion-icon name="build-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Resolução de Incidentes</h4>
+
+                <p class="service-item-text">
+                  Atendimento ágil para diagnóstico e solução de problemas de conectividade, banco de dados e sistemas.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <div class="container">
+          <section class="habilidades-section custom-section">
+            <h10>Habilidades</h10>
+            <div class="skills">
+              <div class="item" title="Base sólida em redes IP: endereçamento, subnetting, roteamento, NAT, DNS e troubleshooting orientado a causa raiz em ambientes corporativos.">TCP/IP</div>
+              <div class="item" title="Planejamento e operação de links WAN com foco em estabilidade, redundância, qualidade de rota e integração entre unidades remotas.">WAN</div>
+              <div class="item" title="Projeto e sustentação de LANs com segmentação por VLAN, configuração de switches e boas práticas de segurança e desempenho local.">LAN</div>
+              <div class="item" title="Configuração e administração de DHCP com reservas, escopos e políticas para distribuição eficiente e confiável de endereços IP.">DHCP</div>
+              <div class="item" title="Implantação e suporte de redes sem fio corporativas: ajustes de cobertura, canais, autenticação e desempenho para usuários e equipes.">Wireless</div>
+              <div class="item" title="Experiência com enlaces de rádio PTP/PTMP para conectividade entre pontos, alinhamento, testes de sinal e estabilidade de tráfego.">Rádios</div>
+              <div class="item" title="Configuração e troubleshooting de OSPF para roteamento dinâmico interno, convergência rápida e alta disponibilidade entre redes.">OSPF</div>
+              <div class="item" title="Atuação com BGP em borda, relacionamento com provedores, políticas de anúncio e otimização de rotas externas.">BGP</div>
+              <div class="item" title="Conhecimento em MPLS para transporte de serviços, segmentação lógica e suporte a cenários de interconexão corporativa.">MPLS</div>
+              <div class="item" title="Consultas SQL, joins, ajustes de dados e suporte a ambientes MySQL voltados a operações de ERP e integrações.">MySQL</div>
+              <div class="item" title="Administração e otimização de PostgreSQL com foco em consistência de dados, desempenho de consultas e suporte técnico avançado.">POSTGRESQL</div>
+            </div>
+          </section>
+
+          <section class="ferramentas custom-section">
+            <h10>Ferramentas</h10>
+            <div class="tools">
+              <div class="item" title="Monitoramento proativo com criação de templates, triggers, dashboards e ações para detectar e tratar incidentes antes de impacto ao cliente.">Zabbix</div>
+              <div class="item" title="Construção de painéis e visualizações para métricas de rede e infraestrutura, apoiando análise rápida e tomada de decisão técnica.">Grafana</div>
+              <div class="item" title="Análise de pacotes do L2 ao L7 para investigar latência, perdas, falhas de protocolo e problemas complexos de comunicação.">Wireshark</div>
+              <div class="item" title="Operação de ambientes ZTE com gestão de OLTs, provisionamento de ONUs e acompanhamento de alarmes em redes PON.">ZTE NetNumen</div>
+              <div class="item" title="Mapeamento visual da topologia e monitoramento contínuo de ativos MikroTik para acelerar diagnóstico e resposta a falhas.">The Dude</div>
+              <div class="item" title="Gerência de equipamentos Fiberhome com configurações de VLAN, acompanhamento de performance e suporte de rede óptica.">UNM</div>
+            </div>
+          </section>
+        </div>
+        <section class="certificados custom-section" style="margin-top: 20px; margin-bottom: 60px;">
+          <h10>Certificados</h10>
+          <div class="tools" style="max-width: 100%;">
+            <div class="item" title="Curso na Udemy com foco em configuração de RouterOS, roteamento, firewall, VPN e troubleshooting em ambientes reais.">MikroTik - Udemy (90h)</div>
+            <div class="item" title="Formação técnica em redes no SENAI, cobrindo fundamentos, infraestrutura, protocolos e operação prática.">Técnico de Redes - SENAI (2015)</div>
+            <div class="item" title="Certificação ITIL Foundation em boas práticas de gestão de serviços de TI e processos de suporte, ciclo 2022 a 2025.">ITIL Foundation (2022-2025)</div>
+            <div class="item" title="Curso realizado na FGV sobre fundamentos de Scrum, papéis, eventos, artefatos e aplicação ágil em equipes de tecnologia.">Scrum Fundamentals - FGV</div>
+            <div class="item" title="Curso realizado na FGV com foco em Kanban, fluxo contínuo, priorização, limites de WIP e melhoria contínua de processos.">Kanban Essentials - FGV</div>
+            <div class="item" title="Curso prático de APIs REST (Alura), incluindo requisições HTTP, autenticação, integração e consumo de endpoints.">APIs REST - Alura</div>
+          </div>
+        </section>
+
+        <style>
+          .container {
+            display: flex;
+            align-items: flex-start;
+            padding: 0px;
+            margin-bottom: 60px;
+          }
+
+          .custom-section {
+            text-align: center;
+            justify-items: auto;
+            justify-content: center;
+          }
+
+          h10 {
+            font-size: 24px;
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            color: white;
+            text-align: center;
+            /* Centraliza os títulos */
+          }
+
+          .skills,
+          .tools {
+            display: flex;
+            justify-content: center;
+            font-family: "Poppins";
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 560px;
+            color: white;
+            margin: 24px 0px auto;
+          }
+
+          .item {
+            font-size: 12px;
+            font-family: "Poppins";
+            padding: 10px 8px;
+            margin: 10px 6px;
+            color: white;
+            background-color: rgba(70, 70, 70, 0.2);
+            border-radius: 8px;
+            min-width: 110px;
+            text-align: center;
+            flex-grow: 0;
+            /* Permite que os itens cresçam para ocupar o espaço */
+          }
+        </style>
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="src/img/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="src/img/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content"></div>
+          </section>
+        </div>
+
+        <!--
+          - clients
+        -->
+      </article>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+      <!--
+        - #RESUMO
+      -->
+
+      <article class="resumo" data-page="resumo">
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <span class="material-icons"> school </span>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sistemas para Internet</h4>
+              <span>Centro Universitário Avantis (UniAvan)</span>
+              <p class="timeline-description">
+                Tecnólogo completo em Sistemas para Internet, com sólida base técnica abrangendo desde a arquitetura de
+                hardware e infraestrutura de redes até o desenvolvimento de sistemas. Essa formação multidisciplinar
+                permite uma visão sistêmica para diagnóstico de problemas complexos, integração de APIs e suporte
+                técnico especializado em ambientes web e corporativos.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Cursos</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Mikrotik - Udemy</h4>
+              <span>2021 (90 horas)</span>
+
+              <p class="timeline-description">
+                Adquiri conhecimentos abrangentes sobre redes, desde conceitos básicos até configurações avançadas.
+                Aprendi a utilizar o RouterOS para configurar roteadores, switches e pontos de acesso sem fio,
+                implementar protocolos de roteamento, VPNs e firewall, além de realizar diagnósticos e solucionar
+                problemas. O destaque foi o projeto prático, que me desafiou a aplicar o conhecimento em um ambiente
+                real. Ao concluir o curso, estou preparado para projetar, implementar e manter redes seguras e
+                eficientes utilizando a tecnologia MikroTik.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Técnico de Redes - SENAI</h4>
+
+              <span>2014 - 2016 (960 horas)</span>
+
+              <p class="timeline-description">
+                Adquiri conhecimentos abrangentes sobre redes, desde conceitos básicos até configurações avançadas.
+                Aprendi a utilizar o RouterOS para configurar roteadores, switches e pontos de acesso sem fio,
+                implementar protocolos de roteamento, VPNs e firewall, além de realizar diagnósticos e solucionar
+                problemas. O destaque foi o projeto prático, que me desafiou a aplicar o conhecimento em um ambiente
+                real. Ao concluir o curso, estou preparado para projetar, implementar e manter redes seguras e
+                eficientes utilizando a tecnologia MikroTik.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experiências</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item experience-item">
+              <img src="src/img/cigam.svg" alt="Logo CIGAM" class="experience-logo">
+              <div class="experience-content">
+                <h4 class="h4 timeline-item-title">
+                  Analista de Suporte N2 Senior - CIGAM / Senior Sistemas
+                </h4>
+
+                <span>Abril 2023 - Nov 2025</span>
+
+                <p class="timeline-text">
+                Atuei como analista de suporte técnico B2B, prestando atendimento a clientes que utilizavam o sistema ERP CIGAM por meio de chat online e e-mail, utilizando a plataforma Movidesk para gestão de chamados. Realizava a análise e tratativa de incidentes (help desk N1/N2), com atuação em múltiplos atendimentos simultâneos (média de até 8), garantindo o acompanhamento ponta a ponta até a resolução dentro dos prazos de SLA. Atuei no suporte a operações de redes varejistas e franquias de grande porte, atendendo marcas como Arezzo, Stanley, Live e Zara.
+                <br><br>
+                Realizava acesso remoto para diagnóstico e solução de incidentes, além de atualizações em terminais PDV e sistemas gerenciais. Também atuei com banco de dados, utilizando PostgreSQL e MySQL para consultas, validações e correções de informações.
+                <br><br>
+                Prestava suporte funcional aos usuários em rotinas do ERP, incluindo processos fiscais e tributários, como emissão e validação de documentos fiscais eletrônicos (NF-e, NFC-e, SAT), análise de XML, parametrizações tributárias e entendimento de regimes fiscais (Simples Nacional, Lucro Presumido), além de suporte a processos de faturamento, comunicação e integração com SEFAZ.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item experience-item">
+              <img src="src/img/unifique.svg" alt="Logo Unifique" class="experience-logo">
+              <div class="experience-content">
+                <h4 class="h4 timeline-item-title">
+                  Analista de Suporte Técnico Pleno - Unifique
+                </h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                Depois da Unifique comprar a Clinitec, atuei no atendimento técnico B2C e B2B, realizando suporte a clientes e empresas com foco na resolução de incidentes de rede e serviços de telecomunicações. Trabalhei com abertura, análise e acompanhamento de chamados técnicos, garantindo o cumprimento de SLA e a continuidade dos serviços. Realizava diagnósticos avançados e configurações em equipamentos de rede como Mikrotik, Cisco e Juniper, incluindo roteadores de borda e firewalls. Atuei com monitoramento de rede utilizando Zabbix e PRTG, identificando falhas, analisando logs e documentando incidentes. Também prestava suporte remoto e apoio a técnicos em campo, realizando liberações, ajustes e configurações necessárias. Possuo conhecimento em protocolos de rede como TCP/IP, DHCP, DNS, VPN, VLAN, Wireless, RADIUS, BGP, OSPF e MPLS.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item experience-item">
+              <img src="src/img/clinitec.svg" alt="Logo Clinitec" class="experience-logo">
+              <div class="experience-content">
+                <h4 class="h4 timeline-item-title">
+                  Analista de Suporte Técnico Pleno - Clinitec
+                </h4>
+
+                <span>jul 2020 - Jan 2022</span>
+
+                <p class="timeline-text">
+                Atuação em suporte técnico avançado, realizando diagnóstico e resolução de incidentes em ambientes de rede e sistemas, com foco em estabilidade e continuidade dos serviços. Experiência no atendimento pelo Movidesk (8 simultâneos), telefone e WhatsApp a clientes e tratativa de falhas relacionadas a conectividade (PPPoE, TCP/IP, Wireless), análise de infraestrutura e suporte a ambientes com alta disponibilidade. Apoio na configuração e validação de equipamentos de rede e enlaces wireless, contribuindo para a operação de uma base de aproximadamente 100 mil clientes. Nessa jornada comecei como pleno e me tornei Senior através de provas e avaliação de desempenho.
+                </p>
+              </div>
+            </li>
+
+            <li class="timeline-item experience-item">
+              <img src="src/img/datapine.svg" alt="Logo Datapine" class="experience-logo">
+              <div class="experience-content">
+                <h4 class="h4 timeline-item-title">
+                  Analista de Infraestrutura TI - DATAPINE
+                </h4>
+
+                <span>Jul 2019 - Jun 2020</span>
+
+                <p class="timeline-text">
+                Realizando gerenciamento da rede interna entre setores, infraestrutura da rede
+                e manutenção em hardware. Controle das permissões de acesso aos usuários dos
+                ERP e Softwares através do Windows AD. Prestando suporte interno para
+                instalação, configuração e manutenção dos softwares, retirando dúvidas com
+                APIs e funções de sistemas, realizando testes funcionais e acompanhando o
+                desempenho de sistemas e equipamentos.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+      </article>
+
+      <article class="contact" data-page="contato">
+        <header>
+          <h2 class="h2 article-title">Contato</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.4281278916783!2d-48.63520202483282!3d-26.977962718446484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8c9f8d96f6007%3A0x8ac2897bd80258c2!2sAv.%20Brasil%2C%20n401%20-%20Centro%2C%20Balne%C3%A1rio%20Cambori%C3%BA%20-%20SC%2C%2088330-043!5e0!3m2!1spt-BR!2sbr!4v1724824000151!5m2!1spt-BR!2sbr"
+              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Informações de Contato</h3>
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <a href="mailto:aricontato1@gmail.com" class="form-btn"
+              style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none;">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>aricontato1@gmail.com</span>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=5547996444679&text=Ol%C3%A1+Ari%2C+vim+pelo+seu+site.&type=phone_number&app_absent=0"
+              target="_blank" class="form-btn"
+              style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none;">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+              <span>Chamar no WhatsApp</span>
+            </a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="src/js/intents.js"></script>
+  <script src="src/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <style>
+    .avatar-box {
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      /* Creates the border effect */
+      background: linear-gradient(45deg, #000000, #7953DE, #000000, #7953DE);
+      background-size: 300% 300%;
+      animation: profile__animate 5s infinite ease-in-out, gradient__animate 4s ease infinite;
+    }
+
+    .avatar-box img {
+      background: #000000;
+      /* Prevents gradient from bleeding into transparent PNGs */
+      border-radius: 60% 40% 30% 70% / 60% 42% 70% 40%;
+      animation: profile__animate 5s infinite ease-in-out;
+    }
+
+    @keyframes gradient__animate {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    @keyframes profile__animate {
+      0% {
+        border-radius: 60% 40% 30% 70% / 60% 42% 70% 40%;
+      }
+
+      50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 50%;
+      }
+
+      100% {
+        border-radius: 60% 40% 30% 70% / 60% 42% 70% 40%;
+      }
+    }
+  </style>
+</body>
+
+</html>
