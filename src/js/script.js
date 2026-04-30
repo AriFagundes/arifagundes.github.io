@@ -140,13 +140,13 @@ const initTypewriter = async () => {
       secondEl.textContent = "";
       secondEl.style.opacity = "1";
       if (isEnglish) {
-        await typeWriter(secondEl, "I graduted", 30);
+        await typeWriter(secondEl, "Graudated", 30);
         await sleep(600);
-        await eraseEffect(secondEl, 8, 7);
+        await eraseEffect(secondEl, 8, 3);
         await sleep(200);
-        await typeWriter(secondEl, secondText.slice(7), 20, false);
+        await typeWriter(secondEl, secondText.slice(3), 20, false);
       } else {
-        await typeWriter(secondEl, "Me fromie", 30);
+        await typeWriter(secondEl, "Graudado", 30);
         await sleep(600);
         await eraseEffect(secondEl, 8, 3);
         await sleep(200);
